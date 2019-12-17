@@ -21,6 +21,8 @@ import { MatToolbarModule,
   MatCardModule,
   MatButtonModule,
   MatProgressSpinnerModule } from '@angular/material';
+import { LayoutComponent } from './layout/layout.component';
+import { HeaderComponent } from './header/header.component';
 
 
 @NgModule({
@@ -35,7 +37,9 @@ import { MatToolbarModule,
     TacoDetailComponent,
     SearchComponent,
     StarsComponent,
-    AboutComponent
+    AboutComponent,
+    LayoutComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
